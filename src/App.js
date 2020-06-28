@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 
 class App extends Component{
   render(){
@@ -14,7 +14,7 @@ class App extends Component{
     }
     return(
       <div className="my-div">
-        {/* 요소 밖에서는 이렇게 작성할수 있다. */}
+        {}
         <h1>리엑트 안녕</h1>
         <h2>{text}</h2>
         {
@@ -27,8 +27,7 @@ class App extends Component{
         <div style={style}
           // self-closed 태그에서만 작동하는 주석
           // 마지막 /> 가 꼭 새줄에 있어야 합니다.
-          /* 이렇게 작성할 수도 있고요 */
-        />
+         />
         // 여긴 주석 사용 불가능
       </div>
     );
@@ -36,3 +35,17 @@ class App extends Component{
 }
 
 export default App;
+ */
+
+ import React, {Component} from 'react';
+ import MyComponent from './MyComponent';
+
+ class App extends Component{
+   render(){
+     return(
+        <MyComponent name= "React" age={4}/>
+     )
+   }
+ }
+
+ export default App;
