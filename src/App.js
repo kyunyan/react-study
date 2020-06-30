@@ -37,7 +37,7 @@ class App extends Component{
 export default App;
  */
 
- import React, {Component} from 'react';
+/*  import React, {Component} from 'react';
  import MyComponent from './MyComponent';
 
  class App extends Component{
@@ -47,5 +47,19 @@ export default App;
      )
    }
  }
+
+ export default App; */
+
+ import React, {Component} from 'react';
+ //import EventPractice from './EventPractice';
+ import EventPractice1 from './EventPractice1';
+ 
+ class App extends Component{
+   render(){
+     return(
+        <EventPractice1/>
+      ); 
+   }
+}
 
  export default App;
