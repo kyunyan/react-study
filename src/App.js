@@ -77,7 +77,7 @@ export default App;
 
  export default App; */
 
- import React , {Component} from 'react';
+/*  import React , {Component} from 'react';
  import ScrollBox from './ScrollBox'
 
  class App extends Component{
@@ -91,6 +91,19 @@ export default App;
          </div> 
       )
    }
+ }
+
+ export default App; */
+
+ import React , {Component} from 'react';
+ import IterationSample from './IterationSample';
+
+ class App extends Component{
+    render(){
+      return (
+         <IterationSample/>
+      )
+    }
  }
 
  export default App;
