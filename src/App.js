@@ -50,7 +50,7 @@ export default App;
 
  export default App; */
 
- import React, {Component} from 'react';
+/*  import React, {Component} from 'react';
  //import EventPractice from './EventPractice';
  import EventPractice1 from './EventPractice1';
  
@@ -61,5 +61,36 @@ export default App;
       ); 
    }
 }
+
+ export default App; */
+
+ /* import React , {Component} from 'react';
+ import ValidationSample from './ValidationSample';
+
+ class App extends Component{
+      render(){
+        return(
+          <ValidationSample/>  
+        )
+      }
+}
+
+ export default App; */
+
+ import React , {Component} from 'react';
+ import ScrollBox from './ScrollBox'
+
+ class App extends Component{
+   render(){
+     return(
+        <div>
+            <ScrollBox ref={(ref) => this.ScrollBox=ref}/>
+            <button onClick={() => this.ScrollBox.scrollToBottom()}>
+                맨밑으로
+            </button>
+         </div> 
+      )
+   }
+ }
 
  export default App;
