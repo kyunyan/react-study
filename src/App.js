@@ -109,6 +109,8 @@ export default App;
  export default App; */
 
 /* import React , {Component} from 'react'
+/*
+import React , {Component} from 'react'
 import LifeCycleSample from './LifeCycleSample'
 
  // 랜덤 색상을 생성합니다. 
@@ -138,17 +140,18 @@ import LifeCycleSample from './LifeCycleSample'
 
  }
 
- export default App; */
+ export default App;
+ */
 
-import React, {Component} from 'react'
-import Hello from './Hello'
+ import React from "react";
+ import Hello from "./components/Hello";
 
-class App extends Component{
-  render(){
+ function App(){
       return (
-          <Hello name="안녕"/>
-      )
-  }
-}
+        <div>
+          <Hello/>
+        </div>
+      ) 
+ }
 
-export default App; 
+ export default App;
