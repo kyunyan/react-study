@@ -107,7 +107,7 @@ export default App;
  }
 
  export default App; */
-
+/*
 import React , {Component} from 'react'
 import LifeCycleSample from './LifeCycleSample'
 
@@ -136,6 +136,20 @@ import LifeCycleSample from './LifeCycleSample'
       )
     }
 
+ }
+
+ export default App;
+ */
+
+ import React from "react";
+ import Hello from "./components/Hello";
+
+ function App(){
+      return (
+        <div>
+          <Hello/>
+        </div>
+      ) 
  }
 
  export default App;
