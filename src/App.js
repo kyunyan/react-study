@@ -107,6 +107,8 @@ export default App;
  }
 
  export default App; */
+
+/* import React , {Component} from 'react'
 /*
 import React , {Component} from 'react'
 import LifeCycleSample from './LifeCycleSample'

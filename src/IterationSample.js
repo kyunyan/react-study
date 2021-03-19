@@ -56,6 +56,7 @@ class IterationSample extends Component{
             ]
         }) */
 
+        // filter로 index번째를 제외한 원소만 있는 새 배열 생성
         this.setState({
             names : names.filter((item, i) => i !== index)
         })
