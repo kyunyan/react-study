@@ -143,12 +143,16 @@ import LifeCycleSample from './LifeCycleSample'
 
  import React from "react";
  import Hello from "./components/Hello";
+ import Wrapper from "./components/Wrapper"
 
  function App(){
       return (
-        <div>
-          <Hello/>
-        </div>
+        <>
+          <Wrapper>
+            <Hello name="react" color="red"  isSpecial/>
+            <Hello color="red" />
+          </Wrapper>
+        </>
       ) 
  }
 
