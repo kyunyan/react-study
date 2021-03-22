@@ -135,7 +135,7 @@ import LifeCycleSample from './LifeCycleSample'
             <button onClick={this.handleClick}>랜덤색상</button>
             <LifeCycleSample color={this.state.color} />
           </div>
-      )
+      )inputSample
     }
 
  }
@@ -144,7 +144,9 @@ import LifeCycleSample from './LifeCycleSample'
  */
 
  import React from "react";
+import Counter from "./components/Counter";
  import Hello from "./components/Hello";
+import InputSample from "./components/InputSample";
  import Wrapper from "./components/Wrapper"
 
  function App(){
@@ -154,6 +156,9 @@ import LifeCycleSample from './LifeCycleSample'
             <Hello name="react" color="red"  isSpecial/>
             <Hello color="red" />
           </Wrapper>
+          <InputSample/>
+          <Counter/>
+         
         </>
       ) 
  }
